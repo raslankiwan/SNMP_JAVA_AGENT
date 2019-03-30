@@ -113,9 +113,9 @@ public class Agent extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 665, 527);
 		contentPane = new JPanel();
-		contentPane.setForeground(new Color(0, 0, 128));
-		contentPane.setBackground(new Color(204, 255, 102));
-		contentPane.setBorder(new MatteBorder(2, 2, 2, 2, (Color) new Color(0, 100, 0)));
+		contentPane.setForeground(new Color(18, 150, 18));
+		contentPane.setBackground(new Color(76, 16, 57));
+		contentPane.setBorder(new MatteBorder(2, 2, 2, 2, (Color) new Color(18, 99, 150)));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
@@ -143,7 +143,7 @@ public class Agent extends JFrame {
 		contentPane.add(port);
 		
 		JButton btnSend = new JButton("Submitt");
-		btnSend.setBackground(new Color(0, 102, 0));
+		btnSend.setBackground(new Color(18, 99, 150));
 		btnSend.setForeground(new Color(0, 0, 128));
 		btnSend.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
