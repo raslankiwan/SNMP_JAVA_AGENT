@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="External JARs"/>
+	<classpathentry kind="lib" path="External JARs/snmp4j-2.3.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="External JARs/snmp4j-2.3.3.jar"/>
+	<classpathentry kind="lib" path="External JARs/snmp4j-agent-2.3.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
